@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <style>
+    /* Attribute selector to target something with a specific attribute value. */
+    /* img[src="https://imageplaceholder.net/150x150"] {
+      border: solid 3px #39f;
+    }
+    .tutorial {
+      border: solid 1px #52d
+    }
+    img {
+      border: solid 1px #73f;
+    }
+    #tutorial-1 {
+      background-color: #eee;
+    } */
+     /* .tutorial, h1 {
+      border: solid 1px #6f2;
+     } */
+      /* Using a combinator */
+     .tutorial > p {
+      font-size: 1.5em;
+     }
+  </style>
+</head>
+<body>
+  <h1>Introduction to CSS</h1>
+  <p>These tutorials teach you CSS.</p>
+  <div class="tutorial" id="tutorial-1">
+    <h2>Tutorial 1</h1>
+      <img src="https://imageplaceholder.net/150x150" />
+      <p>To begin with tutorial 1...</p>
+  </div>
+  <div class="tutorial" id="tutorial-2">
+    <h2>Tutorial 2</h1>
+      <img src="https://imageplaceholder.net/100x100" />
+      <p>To begin with tutorial 2...</p>
+  </div>
+</body>
+</html>

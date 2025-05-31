@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript</title>
+  <script>
+    let firstName = "Scott";
+    let lastName = "Gillen";
+    let twitterHandle = "@scott.gilen2";
+
+    let person = {
+      firstName: "Scott",
+      lastName: "Gillen",
+      twitterHandle: "@scott.gillen2",
+      greet :function() {
+        console.log(`My name is ${this.firstName} ${this.lastName}, and my twitter handle is ${this.twitterHandle}`);
+      }
+    };
+
+    person.greet();
+
+    let array = [1, 2, 3, 4];
+    console.log(array);
+
+    let days = ["Mon", "Tues", "Weds"];
+
+    days.forEach((day, index) => {
+      console.log(`Day: ${day}, index ${index}.`);
+    })
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
