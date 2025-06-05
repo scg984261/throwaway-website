@@ -1,0 +1,29 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, header, nav, main, aside, footer {
+  border-style: solid;
+  border-color: red;
+  border-width: 3px;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.horizontal-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+}
+
+.horizontal-layout > * {
+  /* Each column will use up one third of the container */
+  /* The content will grow and shrink as needed to fit in the container. */
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding-left: 1rem;
+}
